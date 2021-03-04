@@ -1,0 +1,32 @@
+
+@import 'setup';
+@import 'variables';
+@import 'header';
+@import 'aboutMe';
+@import 'skills';
+@import 'projects';
+@import 'main';
+@import 'contact';
+@import 'footer';
+@import 'mediaqueries';
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+h2 {
+  color: $textColor;
+  font-family: $headerFont;
+  font-size: 5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0 5% 0;
+}
+
+
+
+
